@@ -1,0 +1,125 @@
+<App>
+  <Include src="./functions.rsx" />
+  <Frame
+    id="$main"
+    enableFullBleed={false}
+    isHiddenOnDesktop={false}
+    isHiddenOnMobile={false}
+    paddingType="normal"
+    sticky={null}
+    type="main"
+  >
+    <Table
+      id="table1"
+      cellSelection="none"
+      clearChangesetOnSave={true}
+      data="{{ query1.data }}"
+      defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
+      enableSaveActions={true}
+      primaryKeyColumnId="d7baa"
+      showBorder={true}
+      showFooter={true}
+      showHeader={true}
+      toolbarPosition="bottom"
+    >
+      <Column
+        id="d7baa"
+        alignment="right"
+        editableOptions={{ showStepper: true }}
+        format="decimal"
+        formatOptions={{ showSeparators: true, notation: "standard" }}
+        groupAggregationMode="sum"
+        key="id"
+        label="ID"
+        placeholder="Enter value"
+        position="center"
+        size={28}
+        summaryAggregationMode="none"
+      />
+      <Column
+        id="7c324"
+        alignment="left"
+        format="datetime"
+        groupAggregationMode="none"
+        key="created_at"
+        label="Created at"
+        placeholder="Enter value"
+        position="center"
+        size={144.5625}
+        summaryAggregationMode="none"
+      />
+      <Column
+        id="bd37d"
+        alignment="left"
+        format="string"
+        groupAggregationMode="none"
+        key="address"
+        label="Address"
+        placeholder="Enter value"
+        position="center"
+        size={170.5625}
+        summaryAggregationMode="none"
+      />
+      <Column
+        id="02eb9"
+        alignment="left"
+        format="string"
+        groupAggregationMode="none"
+        key="name"
+        label="Name"
+        placeholder="Enter value"
+        position="center"
+        size={122.796875}
+        summaryAggregationMode="none"
+      />
+      <Column
+        id="34a64"
+        alignment="left"
+        format="string"
+        groupAggregationMode="none"
+        key="phone"
+        label="Phone"
+        placeholder="Enter value"
+        position="center"
+        size={104.765625}
+        summaryAggregationMode="none"
+      />
+      <ToolbarButton
+        id="1a"
+        icon="bold/interface-text-formatting-filter-2"
+        label="Filter"
+        type="filter"
+      />
+      <ToolbarButton
+        id="3c"
+        icon="bold/interface-download-button-2"
+        label="Download"
+        type="custom"
+      >
+        <Event
+          event="clickToolbar"
+          method="exportData"
+          pluginId="table1"
+          type="widget"
+          waitMs="0"
+          waitType="debounce"
+        />
+      </ToolbarButton>
+      <ToolbarButton
+        id="4d"
+        icon="bold/interface-arrows-round-left"
+        label="Refresh"
+        type="custom"
+      >
+        <Event
+          event="clickToolbar"
+          method="refresh"
+          pluginId="table1"
+          type="widget"
+          waitMs="0"
+          waitType="debounce"
+        />
+      </ToolbarButton>
+    </Table>
+  </Frame>
+</App>
