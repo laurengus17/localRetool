@@ -1,0 +1,1 @@
+return formatDataAsArray({{getData.data}}).filter((row) => row.company.toLowerCase().startsWith({{companySearch.value.toLowerCase()}})) 
