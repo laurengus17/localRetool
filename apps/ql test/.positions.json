@@ -1,0 +1,163 @@
+{
+  "chart1": {
+    "container": "container4",
+    "subcontainer": "b0578",
+    "row": 1.2,
+    "height": 9.2,
+    "width": 12
+  },
+  "companiesTable": {
+    "container": "container3",
+    "subcontainer": "9da2e",
+    "row": 1,
+    "height": 10.8,
+    "width": 8
+  },
+  "companySearch": {
+    "container": "container3",
+    "subcontainer": "9da2e",
+    "height": 1,
+    "width": 5
+  },
+  "companyStatistic": {
+    "container": "container1",
+    "subcontainer": "bbeb8",
+    "row": 1.4,
+    "col": 4,
+    "height": 0.8,
+    "width": 4
+  },
+  "container1": {
+    "row": 1.2,
+    "height": 2,
+    "width": 8
+  },
+  "container2": {
+    "row": 1.2,
+    "col": 8,
+    "height": 2,
+    "width": 4
+  },
+  "container3": {
+    "row": 3.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "container4": {
+    "container": "container3",
+    "subcontainer": "9da2e",
+    "col": 8,
+    "height": 11.8,
+    "width": 4
+  },
+  "containerTitle1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle2": {
+    "container": "container2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle3": {
+    "container": "container3",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle4": {
+    "container": "container4",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "dateRange1": {
+    "container": "container3",
+    "subcontainer": "9da2e",
+    "col": 5,
+    "height": 1
+  },
+  "divider1": {
+    "container": "container1",
+    "subcontainer": "bbeb8",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider3": {
+    "container": "container2",
+    "subcontainer": "bbeb8",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider4": {
+    "container": "container4",
+    "subcontainer": "b0578",
+    "row": 1,
+    "height": 0.2,
+    "width": 12
+  },
+  "enterpriseStatistic": {
+    "container": "container1",
+    "subcontainer": "bbeb8",
+    "row": 1.4,
+    "col": 8,
+    "height": 0.8,
+    "width": 4
+  },
+  "navigation2": {
+    "subcontainer": "sidebarFrame1",
+    "row": 0.4,
+    "height": 1,
+    "width": 1
+  },
+  "planChart": {
+    "container": "container2",
+    "subcontainer": "bbeb8",
+    "row": 1.4,
+    "height": 7.4,
+    "width": 12
+  },
+  "text1": {
+    "container": "container1",
+    "subcontainer": "bbeb8",
+    "height": 0.6,
+    "width": 12
+  },
+  "text11": {
+    "container": "container4",
+    "subcontainer": "b0578",
+    "row": 0,
+    "height": 1,
+    "width": 7
+  },
+  "text12": {
+    "row": 0,
+    "height": 0.6,
+    "width": 12
+  },
+  "text4": {
+    "container": "container2",
+    "subcontainer": "bbeb8",
+    "height": 0.6,
+    "width": 12
+  },
+  "transactionStatistic": {
+    "container": "container1",
+    "subcontainer": "bbeb8",
+    "row": 1.4,
+    "height": 0.8,
+    "width": 4
+  },
+  "transactionsChart": {
+    "container": "container1",
+    "subcontainer": "bbeb8",
+    "row": 2.2,
+    "height": 6,
+    "width": 12
+  }
+}

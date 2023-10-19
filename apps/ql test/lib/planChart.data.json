@@ -1,0 +1,10 @@
+[
+  {
+    values: {{paymentPlans.data.count}},
+    labels: ['Enterprise', 'Basic', 'Pro'],
+    type: 'pie',
+    marker:{
+      colors: ['rgb(140, 124, 194)', 'rgb(156, 167, 255)', 'rgb(56, 73, 136)']
+    }
+  }
+]
