@@ -4,5 +4,11 @@
     "col": 1,
     "height": 2.8,
     "width": 8
+  },
+  "table2": {
+    "row": 8.6,
+    "col": 1,
+    "height": 8,
+    "width": 8
   }
 }
