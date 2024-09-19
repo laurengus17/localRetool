@@ -16,6 +16,7 @@
       {
         "body": "[{\"key\":\"\",\"value\":\"{{ retoolContext.configVars.test }}\"}]",
         "type": "http_request",
+        "query": "https://httpbin.org/anything",
         "method": "POST",
         "bodyType": "json",
         "runWhenModelUpdates": false
